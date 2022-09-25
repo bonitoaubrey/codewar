@@ -1,3 +1,6 @@
+mod functions;
+use functions::xo::xo;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", xo("zzoo"));
 }
