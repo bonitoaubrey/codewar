@@ -1,6 +1,6 @@
 mod functions;
-use functions::get_sum::get_sum;
+use functions::row_sum_odd_numbers::row_sum_odd_numbers;
 
 fn main() {
-    println!("{}", get_sum(-1, 2));
+    println!("{}", row_sum_odd_numbers(42));
 }
