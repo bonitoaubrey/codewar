@@ -1,1 +1,1 @@
-pub mod row_sum_odd_numbers;
+pub mod open_or_senior;

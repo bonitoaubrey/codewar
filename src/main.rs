@@ -1,6 +1,8 @@
 mod functions;
-use functions::row_sum_odd_numbers::row_sum_odd_numbers;
+use functions::open_or_senior::open_or_senior;
 
 fn main() {
-    println!("{}", row_sum_odd_numbers(42));
+    let l = vec![(45, 12), (55,21), (19, -2), (104, 20)];
+
+    println!("{:?}", open_or_senior(l));
 }

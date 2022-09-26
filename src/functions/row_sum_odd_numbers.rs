@@ -1,5 +1,4 @@
-pub fn row_sum_odd_numbers(n:i64) -> i64 {
-
+pub fn row_sum_odd_numbers(n: i64) -> i64 {
     let mut number = 1;
     let mut i;
     let mut j = n;
