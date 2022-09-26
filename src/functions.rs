@@ -1,1 +1,1 @@
-pub mod greet;
+pub mod get_sum;

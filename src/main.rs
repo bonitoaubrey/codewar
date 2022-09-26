@@ -1,6 +1,6 @@
 mod functions;
-use functions::greet::greet;
+use functions::get_sum::get_sum;
 
 fn main() {
-    println!("{}", greet("Mike"));
+    println!("{}", get_sum(-1, 2));
 }
