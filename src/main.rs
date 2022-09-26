@@ -1,6 +1,6 @@
 mod functions;
-use functions::xo::xo;
+use functions::greet::greet;
 
 fn main() {
-    println!("{}", xo("zzoo"));
+    println!("{}", greet("Mike"));
 }
